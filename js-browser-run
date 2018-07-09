@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+
+# open in browser on MacOS - or you can just open it directly in browser
+open index.html

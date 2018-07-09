@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+rm -rf bin
+mkdir -p bin
+kotlinc-js -module-kind umd -output bin/hello.js -meta-info src/hello.kt

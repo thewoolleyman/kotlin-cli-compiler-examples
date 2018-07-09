@@ -1,3 +1,7 @@
 fun main(args: Array<String>) {
-    println("Hello, World!")
+    println(msg())
+}
+
+public fun msg(): String {
+    return "Hello, World!"
 }

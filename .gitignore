@@ -1,4 +1,5 @@
 bin
+node_modules
 
 # IMPORTANT NOTE: See https://stackoverflow.com/a/5534865 for how to handle excluded directories with committed files
 
