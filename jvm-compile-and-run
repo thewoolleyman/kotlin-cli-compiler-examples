@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+rm -rf bin
+mkdir -p bin
+kotlinc src/hello.kt -include-runtime -d bin/hello.jar
+java -jar bin/hello.jar
